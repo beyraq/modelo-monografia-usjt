@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Thiago Pelizoni <thiago.pelizoni@gmail.com>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modelo de Monografia utilizado em minha pós-graduação em Engenharia de Software na Universidade São Judas Tadeu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Monografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[brazil,ruledheader]{abnt}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[alf]{abntcite}
+
+\makeatletter
+\usepackage{babel}
+\makeatother
+\begin{document}
+
+\autor{Seu Nome}
+
+\titulo{Titulo Monografia}
+
+\orientador{Aluizio Saiter Mota}
+%\coorientador{<Nome do Co-orientador (caso exista)>}
+
+\comentario{Monografia apresentada à banca examinadora da  Universidade São Judas Tadeu, como exigência parcial para obtenção do grau de especialização em Engenharia de Software, sob orientação do Professor Aluizio Saiter Mota}
+
+\instituicao{Universidade São Judas Tadeu}
+\local{São Paulo - SP, Brasil}
+\data{1 de novembro de 2013}
+
+\capa
+\folhaderosto
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Folha de Aprovação
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{folhadeaprovacao}
+Monografia apresentada à banca examinadora da \ABNTinstituicaodata~ sob o título \textit{``\ABNTtitulodata''},
+defendida por \ABNTautordata~e aprovada em \ABNTdatadata, pela banca examinadora constituída pelo
+professor: \setlength{\ABNTsignthickness}{0.4pt}
+
+\assinatura{Prof. Ms. Aluizio Saiter Mota\\ Orientador} 
+
+\end{folhadeaprovacao}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resumo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{resumo}
+Recomenda-se parágrafo único. Deve constar do resumo objetivos, método, resultados e conclusão.. Verbo deve ser usado na voz ativa e terceira pessoa do singular. Deve conter de 150 a 500 palavras.
+
+Um bom resumo deve conter: Contextualização, Lacuna, Proposta, Metodologia, Resultados e Conclusão.
+
+\begin{itemize}
+	\item Usar o tempo Passado sempre que possível;
+	\item Usar voz ativa preferencialmente;
+	\item Ser conciso e utilizar frases completas
+\end{itemize}
+
+\end{resumo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+Write here the English version of your {}``Resumo''.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dedicatória
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter*{Dedicatória}
+%Dedico este trabalho a ...
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Agradecimentos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter*{Agradecimentos}
+%Agradeço a ...
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sumário, Lista de Tabelas e Lista de Figuras
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+%\tableofcontents{}\listoffigures
+%\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Capítulo 1 - Deve descrever qual é o problema, por que é um problema, a quem afeta, como afeta, impactos, quais soluções existem, quais você irá analisar e o porque da escolha.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introdução}
+\begin{enumerate}
+	\item \textit{Contextualização}: Apresentar o campo de pesquisa e mostrar a importância da área principal, os prazos e os processos familiares;
+	\item \textit{Declare a Lacuna}: Perguntas abertas, restrições e limitações;
+	\item \textit{Mostrar o Estado da Arte}: Evidenciar recentes pesquisas e descobertas;
+	\item \textit{Afirmar a importância de seu estudo}: Implicações evidenciando e/ou aplicações;
+	\item \textit{Proposta}: Descrever a proposta do artigo com frases como:
+	\begin{itemize}
+		\item No trabalho aqui relatado ...
+		\item Neste trabalho, as características detalhadas do ...
+	\end{itemize}
+\end{enumerate}
+
+As informações no texto devem fluir de um geral para algo específico, chegando ao fim. Citar autores afim de indicar onde suas ideias vieram.
+
+Eis um exemplo de citação\cite[p. 215]{pressman}
+
+Outro exemplo de citação\cite[p. 345]{sommerville}
+
+
+\section{Teste}
+Praesent molestie semper justo ac aliquet. Suspendisse ac quam iaculis, auctor mauris sit amet, volutpat turpis. Nulla sit amet quam a ligula egestas tristique sit amet sit amet ligula. Proin congue tempor arcu, ac rhoncus massa semper ac. Nam enim purus, dictum at iaculis a, iaculis vitae eros. Sed nibh mi, viverra quis massa sed, dapibus molestie risus. Integer at eros sodales tellus aliquet lobortis. In hac habitasse platea dictumst. Maecenas elit enim, varius a euismod in, eleifend id sem. Fusce ut leo eget eros tristique placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\footnote{Teste: Isto é um exemplo de nota de rodapé}
+
+\subsection{Teste}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ornare neque, vitae sagittis eros. Etiam ullamcorper mi dui, vel pellentesque dui malesuada sit amet. Nullam quis hendrerit massa. Nam interdum viverra dui ac vulputate. Vestibulum malesuada lacus tellus, aliquet consectetur dolor tempus ut. In ac aliquet quam. Aenean vel egestas massa, quis commodo sem. Nulla facilisi. Nam id urna mollis, posuere diam nec, pulvinar dolor. In dapibus dui quis velit rutrum, id elementum orci luctus.\cite{sommerville}
+
+\subsubsection{Teste}
+Aliquam sollicitudin augue nec dignissim accumsan. Praesent euismod risus libero, sed aliquam purus accumsan non. Fusce blandit tellus nisi, id lobortis neque ultricies ac. Donec libero felis, auctor ut sagittis sed, congue ac dolor. Praesent a nulla nec neque accumsan commodo vitae at mi. Sed eget nisl dui. Duis fringilla eget risus in pellentesque. Pellentesque a libero euismod, rutrum dui nec, tempor tortor. Vivamus vel nibh sit amet nibh feugiat posuere lobortis in purus. Vestibulum vel nunc in elit lacinia hendrerit. Aenean convallis orci nibh, id scelerisque nunc gravida at. Nam non libero interdum, interdum est non, tincidunt dolor. Cras fringilla vel magna sit amet accumsan.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Capítulo 2 - Deve fazer uma introdução conceitual a área do tema. Exemplo: descrever o que é teste de software e onde ele se enquadra no desenvolvimento de software.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Parte 2}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ornare neque, vitae sagittis eros. Etiam ullamcorper mi dui, vel pellentesque dui malesuada sit amet. Nullam quis hendrerit massa. Nam interdum viverra dui ac vulputate. Vestibulum malesuada lacus tellus, aliquet consectetur dolor tempus ut. In ac aliquet quam. Aenean vel egestas massa, quis commodo sem. Nulla facilisi. Nam id urna mollis, posuere diam nec, pulvinar dolor. In dapibus dui quis velit rutrum, id elementum orci luctus.
+
+Nam in eleifend massa. In convallis venenatis sem in gravida. In et metus viverra, suscipit neque ac, bibendum tortor. Vivamus et tortor tincidunt, cursus libero non, semper elit. Phasellus suscipit massa quis volutpat varius. Ut porttitor, dolor et bibendum ultricies, sapien purus ullamcorper elit, quis vulputate enim arcu at quam. Quisque nec pretium risus, tempor consectetur leo. Aenean bibendum aliquet erat vel convallis. Etiam sagittis vehicula facilisis. Vestibulum at elit sollicitudin, semper massa et, dapibus diam. Aliquam erat volutpat.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Capítulos 3 ... N - Devem descreveras as soluções que estão sendo analisadas.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Parte 3}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ornare neque, vitae sagittis eros. Etiam ullamcorper mi dui, vel pellentesque dui malesuada sit amet. Nullam quis hendrerit massa. Nam interdum viverra dui ac vulputate. Vestibulum malesuada lacus tellus, aliquet consectetur dolor tempus ut. In ac aliquet quam. Aenean vel egestas massa, quis commodo sem. Nulla facilisi. Nam id urna mollis, posuere diam nec, pulvinar dolor. In dapibus dui quis velit rutrum, id elementum orci luctus.
+
+Nam in eleifend massa. In convallis venenatis sem in gravida. In et metus viverra, suscipit neque ac, bibendum tortor. Vivamus et tortor tincidunt, cursus libero non, semper elit. Phasellus suscipit massa quis volutpat varius. Ut porttitor, dolor et bibendum ultricies, sapien purus ullamcorper elit, quis vulputate enim arcu at quam. Quisque nec pretium risus, tempor consectetur leo. Aenean bibendum aliquet erat vel convallis. Etiam sagittis vehicula facilisis. Vestibulum at elit sollicitudin, semper massa et, dapibus diam. Aliquam erat volutpat.
+
+Aliquam sollicitudin augue nec dignissim accumsan. Praesent euismod risus libero, sed aliquam purus accumsan non. Fusce blandit tellus nisi, id lobortis neque ultricies ac. Donec libero felis, auctor ut sagittis sed, congue ac dolor. Praesent a nulla nec neque accumsan commodo vitae at mi. Sed eget nisl dui. Duis fringilla eget risus in pellentesque. Pellentesque a libero euismod, rutrum dui nec, tempor tortor. Vivamus vel nibh sit amet nibh feugiat posuere lobortis in purus. Vestibulum vel nunc in elit lacinia hendrerit. Aenean convallis orci nibh, id scelerisque nunc gravida at. Nam non libero interdum, interdum est non, tincidunt dolor. Cras fringilla vel magna sit amet accumsan.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conclusão
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{abnt-alf}
+\bibliography{monografia}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Anexos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\anexo
+%\chapter{Anexo 1}
+%
+% Descrever algo
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fim do Documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
