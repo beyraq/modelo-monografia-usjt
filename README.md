@@ -8,6 +8,6 @@ Esta monografia segue a norma [ABNT NBR 14724](http://www.ufvjm.edu.br/site/revi
 
 Com o intuito de facilitar o estudante, coloquei algumas premissas de como descrever seu artigo de acordo com as diretivas do site [Escrita Científica](http://escritacientifica.com/).
 
-Um exemplo deste modelo em uso pode ser visualizado [aqui](https://github.com/thiagopelizoni/modelo-monografia-usjt/blob/master/monografia.pdf}
+Um exemplo deste modelo em uso pode ser visualizado no arquivo *monografia.pdf* dentro deste repositório.
 
 Espero que isso lhe possa ser útil.
