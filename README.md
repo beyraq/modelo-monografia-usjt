@@ -10,4 +10,6 @@ Com o intuito de facilitar o estudante, coloquei algumas premissas de como descr
 
 Um exemplo deste modelo em uso pode ser visualizado no arquivo *monografia.pdf* dentro deste repositório.
 
+Se quiser saber como utilizar o Latex ou, como iniciar com ele com seus trabalhos, basta clicar [aqui](https://code.google.com/p/abntex2/)
+
 Espero que isso lhe possa ser útil.
